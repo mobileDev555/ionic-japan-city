@@ -1,0 +1,46 @@
+<ion-header>
+    <ion-navbar color="white">
+        <ion-title>{{pagetitle}}</ion-title>
+        <ion-buttons end>
+            <small-cart backText="'Test'"></small-cart>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div padding>
+        <img [src]="API.server + catalogItem.tv_image" alt="{{catalogItem.pagetitle}}" class="food_img">
+    </div>
+    <div padding>
+
+        <div>
+            <div style="display: flex; justify-content: space-between;" >
+                <div >
+                    <b>
+                        <span style="font-size: 22px;">{{catalogItem.pagetitle}}</span> </b>
+                    <div *ngIf="catalogItem.tv_weight" class="resource__item__weight marT2">({{catalogItem.tv_weight}})</div>
+                </div>
+                <span class="resource__item__price">{{catalogItem.tv_price | number}}</span>
+            </div>
+            <div class="resource__item__weight marT2" [innerHTML]="catalogItem.description"></div>
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 20px; width: 100%;">
+            <div *ngIf="catalogItem?.id && Cart.getCountItem(catalogItem?.id) != 0">
+                <span class="resource__item__btn minus" (tap)="Cart.removeItem(catalogItem?.id)">
+                    <ion-icon name="ios-remove-outline"></ion-icon>
+                </span>
+                {{Cart.items[catalogItem?.id]}}
+                <span class="resource__item__btn plus" (tap)="Cart.addItem(catalogItem?.id)">
+                    <ion-icon name="ios-add-outline"></ion-icon>
+                </span>
+            </div>
+            <div>
+                <button class="button marB5 btn0Count" style="font-size: 10px;" *ngIf="Cart.getCountItem(catalogItem?.id) == 0"
+                    (tap)="Cart.addItem(catalogItem?.id)">
+                    В&nbsp;корзину
+                </button>
+            </div>
+        </div>
+    </div>
+
+</ion-content>

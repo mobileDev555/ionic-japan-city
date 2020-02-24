@@ -1,0 +1,60 @@
+page-catalog {
+    .label-md{
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .resource__item__intro{
+        margin-top: -1px;
+    }
+    .resource__item__content h3{
+        line-height: 1em;
+        max-width: 100%;
+        margin: 0;
+    }
+    .marB5{
+        margin-bottom:2px;
+        margin-top: 5px;
+    }
+
+    .top4{
+        top:4px;
+    }
+
+    .marT2{
+        margin-top: 5px;
+    }
+    .fontSize-10 {
+        font-size: 10px;
+    }
+    .fontSize-12 {
+        font-size: 12px;
+    }
+    .fontSize-14 {
+        font-size: 14px;
+    }
+    .fontSize-18 {
+        font-size: 18px;
+    }
+    .pad {
+        padding-bottom: 2px;
+    }
+    .food_img {
+        width: auto; 
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border: 2px solid #fab85d;
+        border-radius: 10px;
+    }
+    .item-md.item-block .item-inner {
+        padding: 0px 0px !important;
+        border-bottom: 1px solid #dedede;
+    }
+    .label-md {
+        margin: 13px 0px;
+    }
+    .resource__item__btn.minus {
+        margin-left: 0px;
+    }
+
+}

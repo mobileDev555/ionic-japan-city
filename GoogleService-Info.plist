@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>946513557953-379sjsqrnvsdni007mbmhcs97rgok8aq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.946513557953-379sjsqrnvsdni007mbmhcs97rgok8aq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCoAl6QewHUjX9tgrHpBFc69WoXB221Doo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>946513557953</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ionic.japancity123</string>
+	<key>PROJECT_ID</key>
+	<string>japancity-50f3c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>japancity-50f3c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:946513557953:ios:bac1a918858a4051fdd740</string>
+	<key>DATABASE_URL</key>
+	<string>https://japancity-50f3c.firebaseio.com</string>
+</dict>
+</plist>
